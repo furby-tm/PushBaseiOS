@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Create a window that has the size of the screen
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // Set Background Color of window
+        window?.backgroundColor = UIColor.white
+        
+        // Create a new View Controller with the background color of red
+        let welcomeViewController = WelcomeViewController()
+        
+        // Show the window to the screen
+        window!.rootViewController = welcomeViewController
+        window!.makeKeyAndVisible()
         return true
     }
 
