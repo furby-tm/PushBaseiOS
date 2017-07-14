@@ -23,10 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         
         // Create a new View Controller with the background color of red
-        let welcomeViewController = WelcomeViewController()
+        let startViewController = StartViewController()
         
         // Show the window to the screen
-        window!.rootViewController = welcomeViewController
+        window!.rootViewController = startViewController
         window!.makeKeyAndVisible()
         return true
     }
