@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA44E3D51F1895C5007B296D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44E3D41F1895C5007B296D /* StartViewController.swift */; };
+		AA9DBE8E1F18B89B004F1BB0 /* Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8A1F18B89B004F1BB0 /* Oblique.ttf */; };
+		AA9DBE8F1F18B89B004F1BB0 /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */; };
+		AA9DBE901F18B89B004F1BB0 /* Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8C1F18B89B004F1BB0 /* Black.ttf */; };
+		AA9DBE911F18B89B004F1BB0 /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8D1F18B89B004F1BB0 /* Bold.ttf */; };
 		AADEBE241F186D23003A33CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEBE231F186D23003A33CC /* AppDelegate.swift */; };
 		AADEBE261F186D23003A33CC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEBE251F186D23003A33CC /* WelcomeViewController.swift */; };
 		AADEBE2B1F186D23003A33CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEBE2A1F186D23003A33CC /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 
 /* Begin PBXFileReference section */
 		AA44E3D41F1895C5007B296D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		AA9DBE8A1F18B89B004F1BB0 /* Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Oblique.ttf; path = "../../Downloads/download-2/Oblique.ttf"; sourceTree = "<group>"; };
+		AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Medium.ttf; path = "../../Downloads/download-2/Medium.ttf"; sourceTree = "<group>"; };
+		AA9DBE8C1F18B89B004F1BB0 /* Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Black.ttf; path = "../../Downloads/download-2/Black.ttf"; sourceTree = "<group>"; };
+		AA9DBE8D1F18B89B004F1BB0 /* Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bold.ttf; path = "../../Downloads/download-2/Bold.ttf"; sourceTree = "<group>"; };
 		AADEBE201F186D23003A33CC /* PushBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADEBE231F186D23003A33CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADEBE251F186D23003A33CC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +46,10 @@
 			children = (
 				AADEBE221F186D23003A33CC /* PushBase */,
 				AADEBE211F186D23003A33CC /* Products */,
+				AA9DBE8C1F18B89B004F1BB0 /* Black.ttf */,
+				AA9DBE8D1F18B89B004F1BB0 /* Bold.ttf */,
+				AA9DBE8A1F18B89B004F1BB0 /* Oblique.ttf */,
+				AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9DBE8E1F18B89B004F1BB0 /* Oblique.ttf in Resources */,
+				AA9DBE901F18B89B004F1BB0 /* Black.ttf in Resources */,
+				AA9DBE911F18B89B004F1BB0 /* Bold.ttf in Resources */,
+				AA9DBE8F1F18B89B004F1BB0 /* Medium.ttf in Resources */,
 				AADEBE2B1F186D23003A33CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

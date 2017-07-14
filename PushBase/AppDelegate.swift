@@ -28,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Show the window to the screen
         window!.rootViewController = startViewController
         window!.makeKeyAndVisible()
+        
         return true
     }
 
