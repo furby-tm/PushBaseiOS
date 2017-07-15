@@ -8,6 +8,8 @@
 
 import UIKit
 
+public let greenColor: UIColor = UIColor( red: CGFloat(76/255.0), green: CGFloat(175/255.0), blue: CGFloat(80/255.0), alpha: CGFloat(1.0) )
+
 class StartViewController: UIViewController {
     
     //Make button and label
@@ -22,7 +24,8 @@ class StartViewController: UIViewController {
     let label8:UILabel! = UILabel()
     
     @objc func buttonPressed(){
-        label1.text = "ONWARD"
+        let loginViewController = LoginViewController()
+        self.present(loginViewController, animated: true, completion: nil)
     }
     
     
@@ -38,7 +41,7 @@ class StartViewController: UIViewController {
     //       }
     //    }
         
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = greenColor
         makeLayout()
     }
     
@@ -59,8 +62,6 @@ class StartViewController: UIViewController {
             //blue: 0.1,
             //alpha: 1.0)
         
-        let greenColor: UIColor = UIColor( red: CGFloat(76/255.0), green: CGFloat(175/255.0), blue: CGFloat(80/255.0), alpha: CGFloat(1.0) )
-        
         //Make a label
         label1.text = "PushBase"
         label1.translatesAutoresizingMaskIntoConstraints = false
@@ -68,24 +69,35 @@ class StartViewController: UIViewController {
         //Make another label
         label2.text = "Let's discover"
         label2.translatesAutoresizingMaskIntoConstraints = false
+        label2.textColor = UIColor.white
         
         label3.text = "something extraordinary"
         label3.translatesAutoresizingMaskIntoConstraints = false
+        label3.textColor = UIColor.white
         
         label4.text = "With the freedom to explore,"
         label4.translatesAutoresizingMaskIntoConstraints = false
+        label4.textColor = UIColor.white
+        
         
         label5.text = "connect, and share your ideas"
         label5.translatesAutoresizingMaskIntoConstraints = false
+        label5.textColor = UIColor.white
+        
         
         label6.text = "around the world, here's your"
         label6.translatesAutoresizingMaskIntoConstraints = false
+        label6.textColor = UIColor.white
         
         label7.text = "opportunity to discover the"
         label7.translatesAutoresizingMaskIntoConstraints = false
+        label7.textColor = UIColor.white
+        
         
         label8.text = "unknown."
         label8.translatesAutoresizingMaskIntoConstraints = false
+        label8.textColor = UIColor.white
+        
         
         //Make a button
         button1.translatesAutoresizingMaskIntoConstraints = false
@@ -94,13 +106,13 @@ class StartViewController: UIViewController {
         button1.addTarget(self,
                           action: #selector(self.buttonPressed),
                           for: UIControlEvents.touchUpInside)
-        button1.backgroundColor = greenColor
-        button1.setTitleColor(UIColor.white,
+        button1.backgroundColor = UIColor.white
+        button1.setTitleColor(greenColor,
                               for: UIControlState.normal)
         
         button1.titleLabel?.font = UIFont(name: "GTWalsheim-Black", size: 30)
         label1.font = UIFont(name: "GTWalsheim-Black", size: 50)
-        label1.textColor = greenColor
+        label1.textColor = UIColor.white
         label2.font = UIFont(name: "GTWalsheim-Bold", size: 30)
         label3.font = UIFont(name: "GTWalsheim-Bold", size: 30)
         label4.font = UIFont(name: "GTWalsheim-Medium", size: 24)

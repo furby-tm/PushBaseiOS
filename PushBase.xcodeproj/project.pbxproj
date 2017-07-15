@@ -12,9 +12,11 @@
 		AA9DBE8F1F18B89B004F1BB0 /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */; };
 		AA9DBE901F18B89B004F1BB0 /* Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8C1F18B89B004F1BB0 /* Black.ttf */; };
 		AA9DBE911F18B89B004F1BB0 /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8D1F18B89B004F1BB0 /* Bold.ttf */; };
+		AAB7814D1F198D2900A962EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7814C1F198D2900A962EC /* LoginViewController.swift */; };
 		AADEBE241F186D23003A33CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEBE231F186D23003A33CC /* AppDelegate.swift */; };
 		AADEBE261F186D23003A33CC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEBE251F186D23003A33CC /* WelcomeViewController.swift */; };
 		AADEBE2B1F186D23003A33CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEBE2A1F186D23003A33CC /* Assets.xcassets */; };
+		AAE93B2D1F1991E8000CBBAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +25,13 @@
 		AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Medium.ttf; path = "../../Downloads/download-2/Medium.ttf"; sourceTree = "<group>"; };
 		AA9DBE8C1F18B89B004F1BB0 /* Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Black.ttf; path = "../../Downloads/download-2/Black.ttf"; sourceTree = "<group>"; };
 		AA9DBE8D1F18B89B004F1BB0 /* Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bold.ttf; path = "../../Downloads/download-2/Bold.ttf"; sourceTree = "<group>"; };
+		AAB7814C1F198D2900A962EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AADEBE201F186D23003A33CC /* PushBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADEBE231F186D23003A33CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADEBE251F186D23003A33CC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		AADEBE2A1F186D23003A33CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADEBE2F1F186D23003A33CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 		AADEBE221F186D23003A33CC /* PushBase */ = {
 			isa = PBXGroup;
 			children = (
+				AADEBE2A1F186D23003A33CC /* Assets.xcassets */,
 				AADEBE231F186D23003A33CC /* AppDelegate.swift */,
 				AADEBE251F186D23003A33CC /* WelcomeViewController.swift */,
-				AADEBE2A1F186D23003A33CC /* Assets.xcassets */,
 				AADEBE2F1F186D23003A33CC /* Info.plist */,
 				AA44E3D41F1895C5007B296D /* StartViewController.swift */,
+				AAB7814C1F198D2900A962EC /* LoginViewController.swift */,
+				AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */,
 			);
 			path = PushBase;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE93B2D1F1991E8000CBBAA /* HomeViewController.swift in Sources */,
+				AAB7814D1F198D2900A962EC /* LoginViewController.swift in Sources */,
 				AADEBE261F186D23003A33CC /* WelcomeViewController.swift in Sources */,
 				AADEBE241F186D23003A33CC /* AppDelegate.swift in Sources */,
 				AA44E3D51F1895C5007B296D /* StartViewController.swift in Sources */,
