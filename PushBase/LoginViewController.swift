@@ -19,8 +19,8 @@ class LoginViewController: UIViewController {
     let atWork = "Oh, okay. Not much."
     
     @objc func buttonPressed() {
-        let homeViewController = HomeViewController()
-        self.present(homeViewController, animated: true, completion: nil)
+        let dashboardTabBarController = DashboardTabBarController()
+        self.present(dashboardTabBarController, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

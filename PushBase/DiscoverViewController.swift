@@ -1,27 +1,27 @@
 //
-//  HomeViewController.swift
+//  DiscoverViewController.swift
 //  PushBase
 //
-//  Created by Tyler Furby on 7/14/17.
+//  Created by Tyler Furby on 7/19/17.
 //  Copyright © 2017 Tyler Furby. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
-    let header: UILabel! = UILabel()
+class DiscoverViewController: UIViewController {
     
+    let header:UILabel! = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = greenColor
-        self.title = "Home"
+        self.view.backgroundColor = UIColor.black
+        self.title = "Discover"
+        
         makeLayout()
     }
     
     func makeLayout() {
-        // Make a view
         let view1 = UIView()
         view1.translatesAutoresizingMaskIntoConstraints = false
         //HELPER: HEADER POSITIONING
@@ -37,19 +37,13 @@ class HomeViewController: UIViewController {
         //blue: 0.1,
         //alpha: 1.0)
         
-        header.text = "Home"
+        header.text = "Discover"
         header.translatesAutoresizingMaskIntoConstraints = false
         header.font = UIFont(name: "GTWalsheim-Black", size: 50)
         header.textColor = UIColor.white
         
-        //view2.addSubview(button1)
-        //view2.addSubview(label1)
         view1.addSubview(header)
         
-        // TODO: Fix Crash
-        //view1.addSubview(label1)
-        
-        //Add the views
         view.addSubview(view1)
         view.addSubview(view2)
         
@@ -63,13 +57,13 @@ class HomeViewController: UIViewController {
             "view2Height": 40.0,
             "viewWidth":   375.0 ]
         
-        //--------------- constraints
+            //--------------- constraints
         
         let header_constraint_H = NSLayoutConstraint.constraints(withVisualFormat:
-            "H:|-112-[header]-112-|",
-                                                                options: NSLayoutFormatOptions.alignAllCenterY,
-                                                                metrics: nil,
-                                                                views: viewsDictionary)
+            "H:|-74-[header]-74-|",
+                                                                 options: NSLayoutFormatOptions(rawValue: 0),
+                                                                 metrics: nil,
+                                                                 views: viewsDictionary)
         
         let header_constraint_V = NSLayoutConstraint.constraints(withVisualFormat:
             "V:|-60-[header]",
@@ -128,11 +122,5 @@ class HomeViewController: UIViewController {
         
         view.addConstraints(view_constraint_H)
         view.addConstraints(view_constraint_V)
-        
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }

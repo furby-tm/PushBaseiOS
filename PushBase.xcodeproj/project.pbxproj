@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA03E4561F1AD04400CBA9EF /* DashboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03E4551F1AD04400CBA9EF /* DashboardTabBarController.swift */; };
 		AA44E3D51F1895C5007B296D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44E3D41F1895C5007B296D /* StartViewController.swift */; };
 		AA9DBE8E1F18B89B004F1BB0 /* Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8A1F18B89B004F1BB0 /* Oblique.ttf */; };
 		AA9DBE8F1F18B89B004F1BB0 /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */; };
@@ -17,9 +18,11 @@
 		AADEBE261F186D23003A33CC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEBE251F186D23003A33CC /* WelcomeViewController.swift */; };
 		AADEBE2B1F186D23003A33CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEBE2A1F186D23003A33CC /* Assets.xcassets */; };
 		AAE93B2D1F1991E8000CBBAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */; };
+		AAFC64631F1F74B800A008AC /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC64621F1F74B800A008AC /* DiscoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA03E4551F1AD04400CBA9EF /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
 		AA44E3D41F1895C5007B296D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AA9DBE8A1F18B89B004F1BB0 /* Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Oblique.ttf; path = "../../Downloads/download-2/Oblique.ttf"; sourceTree = "<group>"; };
 		AA9DBE8B1F18B89B004F1BB0 /* Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Medium.ttf; path = "../../Downloads/download-2/Medium.ttf"; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		AADEBE2A1F186D23003A33CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADEBE2F1F186D23003A33CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAFC64621F1F74B800A008AC /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				AA44E3D41F1895C5007B296D /* StartViewController.swift */,
 				AAB7814C1F198D2900A962EC /* LoginViewController.swift */,
 				AAE93B2C1F1991E8000CBBAA /* HomeViewController.swift */,
+				AA03E4551F1AD04400CBA9EF /* DashboardTabBarController.swift */,
+				AAFC64621F1F74B800A008AC /* DiscoverViewController.swift */,
 			);
 			path = PushBase;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			files = (
 				AAE93B2D1F1991E8000CBBAA /* HomeViewController.swift in Sources */,
 				AAB7814D1F198D2900A962EC /* LoginViewController.swift in Sources */,
+				AAFC64631F1F74B800A008AC /* DiscoverViewController.swift in Sources */,
 				AADEBE261F186D23003A33CC /* WelcomeViewController.swift in Sources */,
 				AADEBE241F186D23003A33CC /* AppDelegate.swift in Sources */,
+				AA03E4561F1AD04400CBA9EF /* DashboardTabBarController.swift in Sources */,
 				AA44E3D51F1895C5007B296D /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
